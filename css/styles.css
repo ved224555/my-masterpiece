@@ -1,0 +1,76 @@
+#title{
+  background-color:#1597bb;
+}
+h1{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  line-height: 2;
+  padding: 3% 20%;
+  color: #fff;
+}
+.mob_img{
+  width:30%;
+  transform: rotate(25deg);
+}
+.gallery-image{
+  width:1100px;
+  height: 400px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#features{
+  line-height: 2;
+  padding:7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+#testimonials{
+  text-align:center;
+  background-color:#1597bb;
+  color: #fff;
+  padding: 20px 20px 20px;
+  /* margin: 30px 10px 30px; */
+}
+.testimonial-image{
+  width: 100px;
+  border-radius: 50px;
+}
+#press{
+  background-color: #1597bb;
+  padding: 5%;
+  text-align: center;
+}
+.press-img{
+  margin: 10px 50px 20px;
+  width:10%;
+}
+.carousel-item{
+  text-align: center;
+  padding: 0% 0%;
+}
+/* Pricing Section */
+#pricing{
+  text-align: center;
+  padding: 5%;
+}
+/* CTA */
+#cta{
+  color: #fff;
+  text-align: center;
+  padding: 5% 5%;
+  background-color:  #1597bb;
+}
+@media (max-width:900px) {
+  #title{
+    text-align: center;
+  }
+.mob_img{
+position: static;
+margin-top: 10%;
+line-height: 2;
+transform:rotate(0);
+}
+}
